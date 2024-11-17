@@ -30,11 +30,11 @@ PUT {{host}}/books/3
 Content-Type: application/json
 
 {
-  "title": "Updated Book"
+  "title": "Bob The Tree"
 }
 
 ### Update nonexistent book
-PUT {{host}}/books/18
+PUT {{host}}/books/11
 Content-Type: application/json
 
 {
@@ -50,7 +50,7 @@ Content-Type: application/json
 }
 
 ### Delete existing book
-DELETE {{host}}/books/9
+DELETE {{host}}/books/13
 
 ### Delete nonexistent book
 DELETE {{host}}/books/18
